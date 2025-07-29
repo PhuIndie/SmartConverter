@@ -1,0 +1,13 @@
+pdfs:
+  - name: "Java Interview Guide"
+    path: "2023_Ch6_7_8_10_16_Interview_Ajay Rathod - Guide To Clear Java Developer Interview_Contains 250+ Java, Spring-Boot, Microservice Interview Questions.pdf"
+    category: "interview"
+    type: "technical"
+  - name: "JPA Questions"
+    path: "2024_Top 30 JPA Interview Questions (2024) - javatpoint.pdf"
+    category: "interview"
+    type: "technical"
+  - name: "Pivotal Quiz"
+    path: "GOOD_Quiz_2015_Iuliana Cosmina_Pivotal Certified Spring Web Application Developer Exam-Apress.pdf"
+    category: "quiz"
+    type: "assessment"

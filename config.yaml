@@ -1,0 +1,25 @@
+input:
+  pdf_dir: "data/raw/"
+  pdf_list: "config/pdf_sources.yaml"
+output:
+  json_dir: "data/output/"
+  processed_dir: "data/processed/"
+processing:
+  chunk_size: 1000
+  overlap: 200
+ai:
+  model_name: "models/topic_model.pkl"
+  enable_learning: false
+text_extraction:
+  enable_qa: true  # Set to true if you want QA generation
+  use_text_flow: false  # Optional (default)
+table_extraction:  # Optional settings
+  vertical_strategy: "lines"
+  horizontal_strategy: "text"
+qa_settings:
+  mode: "auto"  # auto|extract|generate
+  min_answer_length: 10
+  confidence_threshold: 0.3
+  max_questions: 20
+  extract_only_clear_pairs: false
+  fallback_to_generation: true

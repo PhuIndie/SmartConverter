@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "generated_at": "20250522_104834",
+    "num_documents": 0,
+    "config": {
+      "input": {
+        "pdf_directory": "/data/raw/",
+        "pdf_list": "config/pdf_sources.yaml"
+      },
+      "output": {
+        "json_path": "data/output/",
+        "processed_dir": "data/processed/"
+      },
+      "processing": {
+        "chunk_size": 1000,
+        "overlap": 200
+      },
+      "ai": {
+        "model_name": "bert-base-uncased",
+        "learning_rate": "1e-5"
+      },
+      "text_extraction": {
+        "preserve_layout": true,
+        "extract_tables": true
+      }
+    }
+  },
+  "documents": []
+}
